@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
@@ -14,10 +14,13 @@ function App() {
   };
 
   return (
-    <div style={gridStyle}>
-      {cards.map((_, index) => (
-        <Usercard key={index} />
-      ))}
+    <div>
+      <h1>Welcome to the Admin Portal</h1>
+      <div style={gridStyle}>
+        {cards.map((_, index) => (
+          <Usercard key={index} />
+        ))}
+      </div>
     </div>
   );
 }
