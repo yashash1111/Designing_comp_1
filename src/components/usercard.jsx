@@ -3,9 +3,9 @@ import React from "react";
 
 function Usercard() {
   // Static user details
-  const profilePhoto = "https://via.placeholder.com/150"; // Dummy profile picture
-  const name = "Yashash";
-  const email = "yashash@example.com";
+  const profilePhoto = "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsZSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"; // Dummy profile picture
+  const name = "John Doe";
+  const email = "JohnDoe@example.com";
   const phone = "+1 (234) 567-8901";
   const address = "123 Main St, New York, NY 10001";
 
